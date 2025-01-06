@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    
+
+    <title>OpenyourMind - live like you want</title>
+
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand text-uppercase" href="#">OpenyourMind</a>
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#Packeges">Packeges</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#FAQ">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+
+        <section class="modal fade" tabindex="-1" id="booking-modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Book a class</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+           
+                <form action="#">
+                  <div class="row g-2">
+                    
+                    <div class="col-sm-6">
+                      <div class="form-floating">
+                        <input type="email1" type="email" class="form-control" placeholder="Your email">
+                        <label for="email1"> Email address</label>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                      <div class="form-floating">
+                        <select id="select1" class="form-select">
+                          <option>1 moth on self growth - 0$</option>
+                          <option> Monthly subscription full guide - 10$ per-month</option>
+                          <option> Personal classes - 60$ per-month</option>
+                        </select>
+                        <label for="select1"> Pick a class</label>
+                      </div>
+                    </div>
+                  </div>
+
+            </form>
+              
+          </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Checkout</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+
+        <section id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+        
+
+              <div class="carousel-inner">
+                <div class="carousel-item active c-item">
+                <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlfGVufDB8fDB8fHww" class="d-block w-100 c-img" alt="...">
+                 
+                <div class="carousel-caption top-0 mt-4 ">
+                    <p class="fs-3  mt-5 text-uppercase">Discover your self</p>
+                    <h1 class="display-1  fw-bolder text-capitalize">OpenyourMind</h1>
+                    <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#booking-modal"> Book a class </button>
+                  </div>
+                </div>
+
+
+              <div class="carousel-item active c-item">
+                <img src="https://images.unsplash.com/photo-1564121211835-e88c852648ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWVudGFsfGVufDB8fDB8fHww" class="d-block w-100 c-img" alt="...">
+               
+                <div class="carousel-caption top-0 mt-4 ">
+                  <p class="fs-3  mt-5 text-uppercase">Make it worthwhile</p>
+                  <h1 class="display-1  fw-bolder text-capitalize">OpenyourMind</h1>
+                  <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#booking-modal"> Book a class </button>
+             </div>
+            </div>
+
+             <div class="carousel-item active c-item">
+                <img src="https://images.unsplash.com/photo-1582727807014-5b320f436d33?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHRoZXJhcHl8ZW58MHx8MHx8fDA%3D" class="d-block w-100 c-img" alt="...">
+               
+                <div class="carousel-caption top-0 mt-4 ">
+                  <p class="fs-3  mt-5 text-uppercase">You can always make it better</p>
+                  <h1 class="display-1  fw-bolder text-capitalize">OpenyourMind</h1>
+                  <button class="btn btn-primary px-4 py-2 fs-5 mt-5"data-bs-toggle="modal" data-bs-target="#booking-modal"> Book a class </button>
+              </div>
+            </div>
+
+                      
+          <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>            
+        </button>
+      
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+          </div>
+        </section>
+
+        <section class="overview">
+          <div class="container h-100 d-flex align-items-centrer ">  
+            <div class="row w-100 text-center fs-4">
+          
+              <div class="col-xl">
+            <svg xmlns="http://www.w3.org/2000/svg me-2" width="16" height="16" fill="currentColor" class="bi bi-journal-richtext" viewBox="0 0 16 16" >
+              <path d="M7.5 3.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m-.861 1.542 1.33.886 1.854-1.855a.25.25 0 0 1 .289-.047L11 4.75V7a.5.5 0 0 1-.5.5h-5A.5.5 0 0 1 5 7v-.5s1.54-1.274 1.639-1.208M5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5"/>
+              <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+              <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+            </svg>
+           3 ways to change your life 
+          </div>
+         
+          <div class="col-xl">
+            <svg xmlns="http://www.w3.org/2000/svg me-2" width="16" height="16" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+              <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"/>
+              <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+            </svg>
+           Get your monthly subscription
+          </div>
+          
+          <div class="col-xl">
+            <svg xmlns="http://www.w3.org/2000/svg me-2" width="16" height="16" fill="currentColor" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
+              <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708"/>
+            </svg>
+          1000s of customers
+          </div>
+        </div>
+      </div>
+        </section >
+  
+
+        <section id="Packeges" class="pt-md-5">
+          <h2 class="text-center my-5">Packeges</h2>
+
+
+          <div class="container">
+          <div class="row">
+            <div class="col-lg">
+              <div class="card">
+                <img src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b25saW5lJTIwY2xhc3Nlc3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Personal classes 60$ per-month</h5>
+                  <p class="card-text"> Get a personalaized class that adjust it's self to your scheduel, needs, and situation. With 1 on 1 live classes</p>
+                  <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#booking-modal">Book a class</a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-lg">
+              <div class="card">
+                <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8b25saW5lJTIwY2xhc3Nlc3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Monthly subscription full guide 10$ per-month</h5>
+                  <p class="card-text"> Subscibe to us and pay a monthly subscription that includes our full guide to self improvement. You'll be abel to have online classes joining multipel people on their and your journey to a better life and have access to our personal guide 24/7 so that you can review and self improve on your own</p>
+                  <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#booking-modal">Book a class</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg">
+              <div class="card">
+                <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG9ubGluZSUyMGZyZWUlMjBjbGFzc2VzfGVufDB8fDB8fHww" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"> One month of self growth 0$</h5>
+                  <p class="card-text"> Subscribe to us one month free of charge, get the full expirince and see  if you dicide to stay</p>
+                  <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#booking-modal">Book a class</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        </section>
+
+        <section id="FAQ" class="py-md-5">
+          <h2 class="my-5 text-center">FAQ</h2>
+
+          <div class="container">
+          <div class="accordion w-75 mx-auto" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Where can I find the guide?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How can I pay?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What laguages are available?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+
+      </main>
+
+      <footer class="bg-dark py-5 mt-5">
+        <div class="container text-light  text-center">
+          <p class="display-5 mb-3">OpenyourMind</p>
+          <small class="text-white-50">&copy; Copyright by Amanda. All rights reserved</small>
+        </div>
+
+      </footer>
+    
+</body>
+</html>
